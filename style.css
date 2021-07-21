@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    height: max-content;
+    background-color: rgb(218, 218, 218);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: 300px;
+    margin: auto;
+    margin-top: 35px;
+}
+.first-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+    padding-top: 20px;
+    border-radius: 10px 10px 0 0;
+}
+.second-container{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(179, 62%, 43%);
+    padding: 30px;
+    padding-top: 15px;
+}
+.third-container{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(179, 43%, 56%);
+    padding: 30px;
+    padding-top: 15px;
+    border-radius: 0 0 10px 10px;
+}
+ul{
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    color: hsl(0, 0%, 84%);
+    font-size: 0.85em;
+    line-height: 1.5;
+}
+p{
+    line-height: 1.7;
+}
+#p1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#p2{
+    margin-top: 0;
+}
+#first-attribute{
+    color: hsl(179, 62%, 43%);
+    font-size: 1.3em;
+}
+#second-attribute{
+    color: hsl(71, 73%, 54%);
+    font-size: 1em;
+}
+#third-attribute{
+    color: hsl(203, 12%, 79%);
+    font-size: 0.9em;
+}
+#forth-attribute{
+    color: white;
+    font-size: 1.1em;
+}
+#fifth-one{
+    color: white;
+    font-size: 2em;
+    margin-right: 7px;
+}
+#fifth-two{
+    color: hsl(179, 56%, 63%);
+}
+#sixth{
+    color: hsl(203, 20%, 83%);
+}
+#button{
+    border-radius: 5px;
+    background-color: hsl(71, 73%, 54%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 17px;
+    box-shadow: 2px 2px 3px 3px rgba(98, 98, 98, 0.388);
+    border: 0;
+}
+#seventh{
+    color: white;
+    font-size: 1.1em;
+}
+
+
+
+@media(min-width: 1440px){
+    .main-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        width: 700px;
+        margin: auto;
+        margin-top: 35px;
+    }
+    .second-container{
+        display: flex;
+        flex-direction: column;
+        background-color: hsl(179, 62%, 43%);
+        padding: 30px;
+        padding-top: 15px;
+        width: 50%;
+        border-radius: 0 0 0 10px;
+    }
+    .third-container{
+        display: flex;
+        flex-direction: column;
+        background-color: hsl(179, 43%, 56%);
+        padding: 30px;
+        padding-top: 15px;
+        border-radius: 0 0 10px 0;
+        width: 50%;
+    }
+}
